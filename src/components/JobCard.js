@@ -23,11 +23,13 @@ function JobCard({ job }) {
                 roundedCircle
                 alt={job.company}
                 style={{
-                  width: "100%",
+                  width: "50%",
                   height: "auto",
                 }}
               />
-              <p>{job.created_at}</p>
+              <div className="text-muted">
+                {new Date(job.created_at).toLocaleDateString()}
+              </div>
             </div>
             <div className="company-title col-md-4">
               <Card.Title>{job.title}</Card.Title>

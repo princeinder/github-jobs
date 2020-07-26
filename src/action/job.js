@@ -3,8 +3,7 @@ import { useReducer, useEffect } from "react";
 import { GET_JOBS, JOBS_LOADING, GET_ERRORS } from "./types";
 import { reducer, initialState } from "../reducer/job";
 
-const apiurl =
-  "https://cors-anywhere.herokuapp.com/https://jobs.github.com/positions.json";
+const apiurl = "https://jobs.github.com/positions.json";
 
 export function useGetJobs(params, page) {
   const [state, dispatch] = useReducer(reducer, initialState);
