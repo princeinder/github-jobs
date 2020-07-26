@@ -1,0 +1,29 @@
+.job-toolbar {
+  background: #f3f3f3;
+  padding: 20px 0px 5px 20px;
+}
+.job-listing {
+  background: #f3f3f3;
+  padding: 10px;
+  margin: 20px 0;
+}
+.job-pagination {
+  background: #f3f3f3;
+  padding: 10px 0px 10px 20px;
+  margin-bottom: 0;
+}
+.job-pagination .pagination {
+  margin: 0;
+}
+.page-item.active .page-link {
+  background-color: #343a40 !important;
+}
+.company-title {
+  width: 200px;
+}
+.company-title {
+  width: 450px;
+}
+.company-logo {
+  width: 100px;
+}
