@@ -49,7 +49,7 @@ function JobCard({ job }) {
             <div className="company-view col-md-3">
               <Button
                 variant="dark"
-                className="mr-2 "
+                className="mr-2"
                 onClick={() => setOpen((prevOpen) => !prevOpen)}
               >
                 {!open ? "View Details" : "Hide details"}
