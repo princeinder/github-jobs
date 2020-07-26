@@ -27,6 +27,7 @@ function JobCard({ job }) {
                   height: "auto",
                 }}
               />
+              <p>{job.created_at}</p>
             </div>
             <div className="company-title col-md-4">
               <Card.Title>{job.title}</Card.Title>
@@ -53,7 +54,8 @@ function JobCard({ job }) {
               </Button>
               <a
                 className="btn btn-dark"
-                _target="blank"
+                target="_blank"
+                rel="noopener noreferrer"
                 href={job.how_to_apply}
               >
                 Apply Now
